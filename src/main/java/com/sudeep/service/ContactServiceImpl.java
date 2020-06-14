@@ -16,7 +16,7 @@ public class ContactServiceImpl implements ContactService {
 
 	public String getNameById(Integer id) {
 
-		return dao.getName(id).toUpperCase(); 
+		return dao.getName(id); 
 	}
 
 }
